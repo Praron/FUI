@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa';
+}
+
+.pattern-small-diagonal-lines {
+  background-color: black;
+  background: repeating-linear-gradient(
+    -45deg,
+    white 0 0.5rem,
+    black 0.5rem 1.5rem
+  );
+}
+
+.pattern-diagonal-lines {
+  background-color: black;
+  background: repeating-linear-gradient(
+    -45deg,
+    white 0 0.75rem,
+    black 0.75rem 1.5rem
+  );
+}
+
+.pattern-polka-dot {
+  background-color: black;
+  background-image: radial-gradient(white 0.05rem, black 0.05rem);
+  background-size: 1rem 1rem;
+}
